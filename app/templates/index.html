@@ -1,10 +1,41 @@
+<!-- templates/index.html -->
+
 {% extends "base.html" %}
 
 {% block content %}
-    <p>
-        <b>Alan Tam</b>
-        <br>
-        Computer Science Student at the
-        <b>University of Waterloo</b>
-    </p>
+    <div class="text">
+        <p>
+            Hi, my name is <b>Alan Tam</b>.
+            <br>
+            I'm currently studying Computer Science at the <b>University of Waterloo</b>.
+        </p>
+    </div>
+    <div class="links">
+        <!-- Link to Linkedin profile.-->
+        <a href="https://www.linkedin.com/in/a37tam/"><i class="fa fa-linkedin"></i></a>
+
+        <!-- Link to Github profile.-->
+        <a href="https://github.com/a37tam"><i class="fa fa-github-alt"></i></a>
+
+        <!-- Email. -->
+        <a href="mailto:a37tam@uwaterloo.ca"><i class="fa fa-envelope"></i></a>
+
+        <!-- Resume. -->
+        <a href=""><i class="fa fa-file-pdf-o"></i></a>
+    </div>
 {% endblock %}
+
+<!--
+Name
+Program
+Work experience.
+Goal.
+
+Story
+    How did you start programming.
+    What do you do now.
+    Mention side projects.
+
+    Hobbies / interests.
+
+-->

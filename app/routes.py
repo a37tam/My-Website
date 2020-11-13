@@ -4,4 +4,4 @@ from app import app
 @app.route('/')
 @app.route('/index')
 def index():
-    return render_template('index.html', title='Alan Tam - Personal Website')
+    return render_template('index.html', title='Alan Tam')
