@@ -1,5 +1,7 @@
 /* static/css/style.css */
 
+/* Homepage ************************************************************************************* */
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -7,9 +9,12 @@ body {
 
 div {
     text-align: center;
-}
 
-/* Homepage ************************************************************************************* */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .name {
     margin: 0;
