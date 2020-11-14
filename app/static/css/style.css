@@ -1,9 +1,60 @@
 /* static/css/style.css */
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
 
 div {
+    text-align: center;
+}
+
+/* Homepage ************************************************************************************* */
+
+.name {
+    margin: 0;
+}
+
+.statement {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+}
+
+/* Font Awesome Icons *************************************************************************** */
+
+.fab, .fas {
+  padding: 10px;
+  font-size: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 4px;
+  border-radius: 50%;
+}
+
+.fab:hover, .fas:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin-in {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github-alt {
+  background: #000000;
+  color: white;
+}
+
+.fa-envelope {
+    background: #FF8C00;
+    color: white;
+}
+
+.fa-file-pdf {
+  background: #bb0000;
+  color: white;
 }
